@@ -24,7 +24,7 @@ export function ManifestoSection() {
 
         {/* Gradient mask reveal text */}
         <motion.h2
-          className="absolute inset-0 text-4xl md:text-6xl lg:text-7xl font-serif leading-tight text-center bg-gradient-to-r from-purple-700 via-purple-400 to-purple-700 bg-clip-text text-transparent"
+          className="absolute inset-0 text-4xl md:text-6xl lg:text-7xl font-serif leading-tight text-center bg-gradient-to-r from-blue-900 via-blue-500 to-blue-900 bg-clip-text text-transparent"
           style={{ clipPath }}
         >
           Стенд — это не конструкция.
