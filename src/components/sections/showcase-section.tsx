@@ -1,6 +1,6 @@
-import { useState } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { X } from "lucide-react"
+import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages = [
   "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ef9d12e9-8838-472b-92f2-c5618dc55897.jpg",
@@ -54,9 +54,28 @@ const showcaseImages = [
 ]
 
 export function ShowcaseSection() {
-  const [selected, setSelected] = useState<string | null>(null)
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
   const realImages = showcaseImages.filter((src) => !src.includes("placeholder"))
   const placeholders = showcaseImages.filter((src) => src.includes("placeholder"))
+
+  const prev = useCallback(() => {
+    setSelectedIndex((i) => (i !== null ? (i - 1 + realImages.length) % realImages.length : null))
+  }, [realImages.length])
+
+  const next = useCallback(() => {
+    setSelectedIndex((i) => (i !== null ? (i + 1) % realImages.length : null))
+  }, [realImages.length])
+
+  useEffect(() => {
+    if (selectedIndex === null) return
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") prev()
+      if (e.key === "ArrowRight") next()
+      if (e.key === "Escape") setSelectedIndex(null)
+    }
+    window.addEventListener("keydown", handler)
+    return () => window.removeEventListener("keydown", handler)
+  }, [selectedIndex, prev, next])
 
   return (
     <section id="projects" className="bg-background px-6 py-24">
@@ -90,7 +109,7 @@ export function ShowcaseSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.4, delay: (i % 4) * 0.07 }}
-                onClick={() => !isPlaceholder && setSelected(src)}
+                onClick={() => !isPlaceholder && setSelectedIndex(realImages.indexOf(src))}
                 data-clickable
               >
                 {isPlaceholder ? (
@@ -125,34 +144,66 @@ export function ShowcaseSection() {
 
       {/* Lightbox */}
       <AnimatePresence>
-        {selected && (
+        {selectedIndex !== null && (
           <motion.div
             className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={() => setSelected(null)}
+            onClick={() => setSelectedIndex(null)}
           >
+            {/* Закрыть */}
             <motion.button
               className="absolute top-5 right-5 bg-white/10 hover:bg-white/20 text-white rounded-full p-2 transition-colors"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setSelected(null)}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={() => setSelectedIndex(null)}
               data-clickable
             >
               <X className="w-6 h-6" />
             </motion.button>
-            <motion.img
-              src={selected}
-              alt="Выставочный стенд"
-              className="max-w-full max-h-[90vh] rounded-xl object-contain shadow-2xl"
-              initial={{ opacity: 0, scale: 0.85 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.85 }}
-              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-              onClick={(e) => e.stopPropagation()}
-            />
+
+            {/* Стрелка влево */}
+            <motion.button
+              className="absolute left-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={(e) => { e.stopPropagation(); prev() }}
+              data-clickable
+            >
+              <ChevronLeft className="w-7 h-7" />
+            </motion.button>
+
+            {/* Фото */}
+            <AnimatePresence mode="wait">
+              <motion.img
+                key={selectedIndex}
+                src={realImages[selectedIndex]}
+                alt="Выставочный стенд"
+                className="max-w-full max-h-[85vh] rounded-xl object-contain shadow-2xl"
+                initial={{ opacity: 0, x: 40 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -40 }}
+                transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                onClick={(e) => e.stopPropagation()}
+              />
+            </AnimatePresence>
+
+            {/* Стрелка вправо */}
+            <motion.button
+              className="absolute right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={(e) => { e.stopPropagation(); next() }}
+              data-clickable
+            >
+              <ChevronRight className="w-7 h-7" />
+            </motion.button>
+
+            {/* Счётчик */}
+            <div className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/50 text-sm">
+              {selectedIndex + 1} / {realImages.length}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
