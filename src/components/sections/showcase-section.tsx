@@ -20,6 +20,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a46ac291-6f4d-4e7e-af44-3498168c84a4.jpg", label: "B-flexy · Интершарм 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c69fea19-6ec1-4600-83a6-91c08e17ca23.jpg", label: "Kelli Group · HouseHold 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7fb1266b-1e77-413b-a5ba-61574fc772d9.jpg", label: "Артак · БИОТ 2025" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aeab5ef8-b23b-431c-ad31-bfbdb1a9a538.jpg", label: "Черкизово · Gastreet 2025" },
 ]
 
 const TOTAL_SLOTS = 48
