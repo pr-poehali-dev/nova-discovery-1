@@ -8,12 +8,14 @@ import { CarouselSection } from "@/components/sections/carousel-section"
 import { InsightsSection } from "@/components/sections/insights-section"
 import { PricingSection } from "@/components/sections/pricing-section"
 import { FooterSection } from "@/components/sections/footer-section"
+import { NavbarSection } from "@/components/sections/navbar-section"
 
 const Index = () => {
   return (
     <LenisProvider>
       <main className="custom-cursor bg-background">
         <CustomCursor />
+        <NavbarSection />
         <HeroSection />
         <ManifestoSection />
         <FeaturesSection />

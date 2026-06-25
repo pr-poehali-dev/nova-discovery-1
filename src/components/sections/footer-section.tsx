@@ -26,7 +26,11 @@ export function FooterSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              ЭкспоМакс<br/>Групп.
+              <img
+                src="https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/37f196d0-5c3c-4fff-a618-da0ef79df9d5.png"
+                alt="ЭкспоМаксГрупп"
+                className="h-20 w-auto"
+              />
             </motion.h2>
 
             <nav className="flex flex-wrap gap-6 mt-8">
