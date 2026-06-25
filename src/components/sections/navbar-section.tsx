@@ -9,11 +9,16 @@ export function NavbarSection() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
     >
-      <img
-        src="https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/37f196d0-5c3c-4fff-a618-da0ef79df9d5.png"
-        alt="ЭкспоМаксГрупп"
-        className="h-12 w-auto"
-      />
+      <div className="flex items-center gap-3">
+        <img
+          src="https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/37f196d0-5c3c-4fff-a618-da0ef79df9d5.png"
+          alt="ЭкспоМаксГрупп"
+          className="h-12 w-auto"
+        />
+        <span className="hidden sm:block font-serif text-lg text-foreground leading-tight">
+          ЭкспоМАКС<br /><span className="text-sm text-muted-foreground font-sans">ГРУПП</span>
+        </span>
+      </div>
 
       <a
         href="tel:+79259442855"
