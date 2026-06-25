@@ -26,6 +26,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e174076e-f9a2-42fd-9ecd-9277dce36607.jpeg", label: "Лукойл · Mining World 2022, Новокузнецк" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e665b4a1-4917-4e3e-9fd7-9f0f988e2972.jpeg", label: "Турбулентность Дон · РосГазЭкспо 2021" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg", label: "БМ Сервис · Росупак 2025" },
 ]
 
 const TOTAL_SLOTS = 48
