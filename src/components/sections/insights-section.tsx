@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Эксклюзивные стенды под ключ",
+    category: "Дизайн и строительство",
+    image: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/files/1ee6ac45-742a-4db4-b6e2-3691ffe4122b.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Двухэтажные стенды премиум-класса",
+    category: "Крупные проекты",
+    image: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/files/3ea12665-5098-4f73-afc7-ace458eedca8.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Дизайн-проект и 3D-визуализация",
+    category: "Проектирование",
+    image: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/files/acdafb90-9898-41ad-9ec1-da4647040e69.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Монтаж и обслуживание на площадке",
+    category: "Сервис",
+    image: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/files/261336ae-cb53-4dc8-be59-b447c54ed544.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Услуги
         </motion.p>
 
         <div className="divide-y divide-border">

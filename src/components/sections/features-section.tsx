@@ -62,8 +62,8 @@ function SpeedIndicator() {
 
   return (
     <div className="flex flex-col items-center justify-center h-full gap-4">
-      <span className="text-3xl md:text-4xl font-sans font-medium text-foreground">100ms</span>
-      <span className="text-sm text-muted-foreground">Загрузка</span>
+      <span className="text-3xl md:text-4xl font-sans font-medium text-foreground">14 дней</span>
+      <span className="text-sm text-muted-foreground">Сроки сдачи</span>
       <div className="w-full max-w-[120px] h-1.5 bg-foreground/10 rounded-full overflow-hidden">
         <motion.div
           className="h-full bg-primary rounded-full"
@@ -105,8 +105,8 @@ export function FeaturesSection() {
               <TypeTester />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Типографика</h3>
-              <p className="text-muted-foreground text-sm mt-1">Красивые шрифты, которые идеально масштабируются.</p>
+              <h3 className="font-serif text-xl text-foreground">Дизайн-проект</h3>
+              <p className="text-muted-foreground text-sm mt-1">Уникальная 3D-концепция стенда под ваш бренд и задачи.</p>
             </div>
           </motion.div>
 
@@ -125,8 +125,8 @@ export function FeaturesSection() {
               <LayoutAnimation />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Макеты</h3>
-              <p className="text-muted-foreground text-sm mt-1">Гибкие сетки, которые адаптируются под контент.</p>
+              <h3 className="font-serif text-xl text-foreground">Производство</h3>
+              <p className="text-muted-foreground text-sm mt-1">Собственный цех и контроль качества на каждом этапе.</p>
             </div>
           </motion.div>
 
@@ -145,8 +145,8 @@ export function FeaturesSection() {
               <SpeedIndicator />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Скорость</h3>
-              <p className="text-muted-foreground text-sm mt-1">Молниеносная загрузка страниц для ваших гостей.</p>
+              <h3 className="font-serif text-xl text-foreground">Монтаж под ключ</h3>
+              <p className="text-muted-foreground text-sm mt-1">Доставка, сборка и демонтаж на любой выставочной площадке.</p>
             </div>
           </motion.div>
         </div>
