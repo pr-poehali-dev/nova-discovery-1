@@ -2,10 +2,10 @@ import { motion } from "framer-motion"
 import { Phone } from "lucide-react"
 
 const footerLinks = [
-  { label: "Услуги", href: "#" },
-  { label: "Проекты", href: "#" },
-  { label: "Цены", href: "#" },
-  { label: "Контакты", href: "#" },
+  { label: "Услуги", href: "#services" },
+  { label: "Наши проекты", href: "#projects" },
+  { label: "О компании", href: "#about" },
+  { label: "Цены", href: "#pricing" },
 ]
 
 export function FooterSection() {
@@ -33,12 +33,12 @@ export function FooterSection() {
               />
             </motion.h2>
 
-            <nav className="flex flex-wrap gap-6 mt-8">
+            <nav className="flex flex-col gap-3 mt-8">
               {footerLinks.map((link, i) => (
                 <motion.a
                   key={i}
                   href={link.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-muted-foreground hover:text-foreground hover:translate-x-1 transition-all w-fit"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}

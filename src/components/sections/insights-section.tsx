@@ -35,7 +35,7 @@ export function InsightsSection() {
   }
 
   return (
-    <section className="bg-background px-6 py-24" onMouseMove={handleMouseMove}>
+    <section id="about" className="bg-background px-6 py-24" onMouseMove={handleMouseMove}>
       <div className="max-w-4xl mx-auto">
         <motion.p
           className="text-muted-foreground text-sm uppercase tracking-widest mb-8"

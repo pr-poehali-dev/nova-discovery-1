@@ -78,7 +78,7 @@ function SpeedIndicator() {
 
 export function FeaturesSection() {
   return (
-    <section className="bg-background px-6 py-24">
+    <section id="services" className="bg-background px-6 py-24">
       <div className="max-w-6xl mx-auto">
         <motion.p
           className="text-muted-foreground text-sm uppercase tracking-widest mb-8"

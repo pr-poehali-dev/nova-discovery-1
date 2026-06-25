@@ -21,7 +21,7 @@ export function ShowcaseSection() {
   const yValues = [y1, y2, y3]
 
   return (
-    <section ref={containerRef} className="bg-background px-6 py-32 overflow-hidden">
+    <section id="projects" ref={containerRef} className="bg-background px-6 py-32 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <motion.p
           className="text-muted-foreground text-sm uppercase tracking-widest mb-8"
