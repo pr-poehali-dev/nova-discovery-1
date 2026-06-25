@@ -74,15 +74,17 @@ export function PricingSection() {
                 ))}
               </ul>
 
-              <button
-                className={`w-full mt-8 py-3 px-6 rounded-lg font-medium transition-colors ${
+              <a
+                href="tel:+79259442855"
+                className={`w-full mt-8 py-3 px-6 rounded-lg font-medium transition-colors text-center block ${
                   plan.popular
                     ? "bg-primary text-primary-foreground hover:bg-primary/90"
                     : "bg-secondary text-foreground hover:bg-accent/30"
                 }`}
+                data-clickable
               >
                 Рассчитать стенд
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>

@@ -1,6 +1,5 @@
-import { useState } from "react"
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
+import { Phone } from "lucide-react"
 
 const footerLinks = [
   { label: "Услуги", href: "#" },
@@ -10,8 +9,6 @@ const footerLinks = [
 ]
 
 export function FooterSection() {
-  const [email, setEmail] = useState("")
-
   return (
     <footer className="relative bg-background px-6 py-24 overflow-hidden">
       {/* Gradient blob */}
@@ -50,25 +47,17 @@ export function FooterSection() {
             </nav>
           </div>
 
-          {/* Email signup */}
+          {/* Phone CTA */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <p className="text-muted-foreground text-sm mb-4">Оставьте email — пришлём расчёт стенда и примеры работ.</p>
-            <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Введите email"
-                className="flex-1 bg-secondary border-0 rounded-lg px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button
-                type="submit"
-                className="bg-foreground text-background p-3 rounded-lg hover:bg-foreground/90 transition-colors"
-                data-clickable
-              >
-                <ArrowRight className="w-5 h-5" />
-              </button>
-            </form>
+            <p className="text-muted-foreground text-sm mb-4">Позвоните нам — рассчитаем стенд и пришлём примеры работ.</p>
+            <a
+              href="tel:+79259442855"
+              className="inline-flex items-center gap-3 bg-foreground text-background px-6 py-4 rounded-xl hover:bg-foreground/90 transition-colors text-lg font-medium"
+              data-clickable
+            >
+              <Phone className="w-5 h-5" />
+              8 925 944 28 55
+            </a>
           </motion.div>
         </div>
 
