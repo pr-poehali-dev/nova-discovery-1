@@ -1,4 +1,6 @@
-import { motion } from "framer-motion"
+import { useState } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { X } from "lucide-react"
 
 const showcaseImages = [
   "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ef9d12e9-8838-472b-92f2-c5618dc55897.jpg",
@@ -49,10 +51,10 @@ const showcaseImages = [
   "/placeholder.jpg",
   "/placeholder.jpg",
   "/placeholder.jpg",
-  "/placeholder.jpg",
 ]
 
 export function ShowcaseSection() {
+  const [selected, setSelected] = useState<string | null>(null)
   const realImages = showcaseImages.filter((src) => !src.includes("placeholder"))
   const placeholders = showcaseImages.filter((src) => src.includes("placeholder"))
 
@@ -83,11 +85,12 @@ export function ShowcaseSection() {
             return (
               <motion.div
                 key={i}
-                className="relative aspect-square rounded-xl overflow-hidden group bg-secondary"
+                className={`relative aspect-square rounded-xl overflow-hidden bg-secondary ${!isPlaceholder ? "cursor-pointer" : ""}`}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.4, delay: (i % 4) * 0.07 }}
+                onClick={() => !isPlaceholder && setSelected(src)}
                 data-clickable
               >
                 {isPlaceholder ? (
@@ -119,6 +122,40 @@ export function ShowcaseSection() {
           </motion.p>
         )}
       </div>
+
+      {/* Lightbox */}
+      <AnimatePresence>
+        {selected && (
+          <motion.div
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelected(null)}
+          >
+            <motion.button
+              className="absolute top-5 right-5 bg-white/10 hover:bg-white/20 text-white rounded-full p-2 transition-colors"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setSelected(null)}
+              data-clickable
+            >
+              <X className="w-6 h-6" />
+            </motion.button>
+            <motion.img
+              src={selected}
+              alt="Выставочный стенд"
+              className="max-w-full max-h-[90vh] rounded-xl object-contain shadow-2xl"
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.85 }}
+              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   )
 }
