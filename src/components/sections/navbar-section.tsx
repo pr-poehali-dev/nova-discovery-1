@@ -20,6 +20,13 @@ export function NavbarSection() {
         </span>
       </div>
 
+      <nav className="hidden md:flex items-center gap-7">
+        <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Услуги</a>
+        <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Проекты</a>
+        <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>О компании</a>
+        <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Цены</a>
+      </nav>
+
       <a
         href="tel:+79259442855"
         className="inline-flex items-center gap-2 bg-foreground text-background px-4 py-2 rounded-lg hover:bg-foreground/90 transition-colors text-sm font-medium"
