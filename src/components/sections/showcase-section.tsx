@@ -17,6 +17,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d506ac1a-c544-4359-9afc-6f497925635d.jpg", label: "Moreto · Рупластика 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1bfa17ff-6dc6-401e-96d3-9947a926443e.jpg", label: "Linksim · Рупластика 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d32a7b-afe4-41c2-8fef-5b5ad3a085a1.jpg", label: "Frambini · WorldFood 2025" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a46ac291-6f4d-4e7e-af44-3498168c84a4.jpg", label: "B-flexy · Интершарм 2025" },
 ]
 
 const TOTAL_SLOTS = 48
