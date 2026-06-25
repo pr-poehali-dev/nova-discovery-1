@@ -75,7 +75,9 @@ export function PricingSection() {
               </ul>
 
               <a
-                href="tel:+79259442855"
+                href="https://t.me/expomaxgroup"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`w-full mt-8 py-3 px-6 rounded-lg font-medium transition-colors text-center block ${
                   plan.popular
                     ? "bg-primary text-primary-foreground hover:bg-primary/90"
