@@ -50,6 +50,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/43d14c09-c54d-4c5b-a640-dda0cc74f890.JPG", label: "Aristo · Мебель 2014" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3a06b4f1-32ce-4320-ac9d-acd0540a254a.jpg", label: "Ravenol · MIMS 2012" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/835219a3-628e-4f8c-b199-1dfd4fec1789.jpg", label: "Smeg · Мебель 2010" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6bcd1d31-5c2f-4e21-a963-169a94ab6d36.JPG", label: "Евростандарт · Мебель 2010" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d0bb67c6-7227-420c-88bf-3f0b2e8970f7.JPG", label: "Sobranie · Millionaire Fair 2009" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f4042bbe-e5ac-4eaf-bf7c-0b4c9870d780.jpg", label: "Раменская мебельная компания · ЕЕМ 2009" },
 ]
