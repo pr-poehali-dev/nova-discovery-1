@@ -24,6 +24,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6c8c23b-1db2-4598-a710-863f9a04ec03.jpg", label: "Sofi De Marko · HomeTextile&Design 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e174076e-f9a2-42fd-9ecd-9277dce36607.jpeg", label: "Лукойл · Mining World 2022, Новокузнецк" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e665b4a1-4917-4e3e-9fd7-9f0f988e2972.jpeg", label: "Турбулентность Дон · РосГазЭкспо 2021" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bd570696-666f-4cb0-8e90-2adb75d641c6.JPG", label: "Столица полимеров · Рупластика 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b43f4daa-b3e0-4dcc-9f86-21dae224d9b4.JPG", label: "Микрон · СЕМАТ 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ef9d12e9-8838-472b-92f2-c5618dc55897.jpg", label: "Princess · Boat Show 2016" },
