@@ -34,6 +34,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/44339852-5bb7-4649-bada-87481245a8d2.JPG", label: "Кубань Агротех · ЮгАгро 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7ce9c188-b4e7-4bff-995c-75be3b391c0e.JPG", label: "LAB+ · Росупак 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6b14d1c4-183b-4f6f-8600-3cc163b446df.JPG", label: "Hangbo · Митекс 2019" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f6aeba7f-8b06-4bab-80b8-c04793025b61.JPG", label: "RBK money · RIV 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ef9d12e9-8838-472b-92f2-c5618dc55897.jpg", label: "Princess · Boat Show 2016" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/107d12f3-c524-41ab-adb1-9ed2afd74310.jpg", label: "Bajaj · Мотовесна 2016" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3a06b4f1-32ce-4320-ac9d-acd0540a254a.jpg", label: "Ravenol · MIMS 2012" },
