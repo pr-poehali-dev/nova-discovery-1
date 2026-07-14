@@ -32,6 +32,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg", label: "Amenari · CoffeeTeaCacaoExpo 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f3c6ddaf-0948-4f20-a294-2860464b4922.jpg", label: "Coffefest · CoffeeTeaCacaoExpo 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e174076e-f9a2-42fd-9ecd-9277dce36607.jpeg", label: "Лукойл · Mining World 2022, Новокузнецк" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cb96e45d-69f7-44de-b948-4365c5588ce4.jpg", label: "Händle ZMB Braun · Rosbuild 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e665b4a1-4917-4e3e-9fd7-9f0f988e2972.jpeg", label: "Турбулентность Дон · РосГазЭкспо 2021" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41fb5e4b-9cdb-4bce-9896-d5750d7bad6c.JPG", label: "Grégoire Besson · ЮгАгро 2021" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bd570696-666f-4cb0-8e90-2adb75d641c6.JPG", label: "Столица полимеров · Рупластика 2020" },
