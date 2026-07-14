@@ -36,6 +36,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41fb5e4b-9cdb-4bce-9896-d5750d7bad6c.JPG", label: "Grégoire Besson · ЮгАгро 2021" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bd570696-666f-4cb0-8e90-2adb75d641c6.JPG", label: "Столица полимеров · Рупластика 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/40b9f0ea-b904-4a75-8ff8-75a651965dd5.jpg", label: "Alta Roma · Продэкспо 2020" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1fc98a40-ff3d-4798-8d68-9801cbd0d516.jpg", label: "Style · HouseHold 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b43f4daa-b3e0-4dcc-9f86-21dae224d9b4.JPG", label: "Микрон · СЕМАТ 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0242263d-5104-4a01-81bc-8158d6ba14a3.JPG", label: "Kelli · HouseHold 2019" },
