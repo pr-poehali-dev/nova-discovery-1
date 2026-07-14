@@ -37,6 +37,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/40b9f0ea-b904-4a75-8ff8-75a651965dd5.jpg", label: "Alta Roma · Продэкспо 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b43f4daa-b3e0-4dcc-9f86-21dae224d9b4.JPG", label: "Микрон · СЕМАТ 2019" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0242263d-5104-4a01-81bc-8158d6ba14a3.JPG", label: "Kelli · HouseHold 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b57228ba-1332-4a0e-993a-0f915652b2b4.JPG", label: "Martika · ХаусХолд 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/44339852-5bb7-4649-bada-87481245a8d2.JPG", label: "Кубань Агротех · ЮгАгро 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7ce9c188-b4e7-4bff-995c-75be3b391c0e.JPG", label: "LAB+ · Росупак 2019" },
