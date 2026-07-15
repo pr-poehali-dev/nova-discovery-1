@@ -62,6 +62,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/60936646-bb5a-49c6-8a16-aca24a1548fb.jpg", label: "Style · HouseHold 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fca3f111-981a-4200-b29b-09fcf98e6010.jpg", label: "ELCO · Рупластика 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec010f90-5c8a-49a4-b75f-82ecc658b0a1.jpg", label: "Moretto · Рупластика 2024" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/69140be9-5584-4bd8-b19a-4b384da336b0.JPG", label: "АйТи Ойл · СвязьЭкспоком 2009" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/65c00d66-c06a-446b-bc01-c80e97415980.jpeg", label: "Amenari · BarHub 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg", label: "Amenari · CoffeeTeaCacaoExpo 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f3c6ddaf-0948-4f20-a294-2860464b4922.jpg", label: "Coffefest · CoffeeTeaCacaoExpo 2024" },
