@@ -67,6 +67,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/855304dc-1cee-4977-b17b-3e3eff330b3f.jpg", label: "ТД БМсервис · Росупак 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/32a8ca95-1d97-43d4-b914-23fc65ff5de7.jpg", label: "ТД БМсервис · Росупак 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e0f4ed50-bd73-4a8b-ab75-b6d0f6e75d42.jpg", label: "2M Group · Связь 2024" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/616c2c72-5ba3-4834-8d18-cce6119cb4f5.jpg", label: "Kelli · HouseHold 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1fc98a40-ff3d-4798-8d68-9801cbd0d516.jpg", label: "Style · HouseHold 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9c51c0ff-6494-4c62-be57-4d68ee75aed1.jpg", label: "Kelli · HouseHold 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
