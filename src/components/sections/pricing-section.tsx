@@ -1,96 +1,188 @@
-import { motion } from "framer-motion"
-import { Check } from "lucide-react"
+import { useState, useEffect, useCallback } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { X, ChevronLeft, ChevronRight, Play } from "lucide-react"
 
-const plans = [
-  {
-    name: "Стандарт",
-    price: "от 120 000",
-    period: " ₽",
-    description: "Стенд до 20 м²",
-    features: ["Индивидуальный дизайн-проект", "3D-визуализация", "Производство и брендинг", "Монтаж и демонтаж"],
-  },
-  {
-    name: "Премиум",
-    price: "от 350 000",
-    period: " ₽",
-    description: "Эксклюзивный стенд от 30 м²",
-    features: [
-      "Уникальная концепция и зонирование",
-      "Двухэтажные конструкции",
-      "Мультимедиа и LED-экраны",
-      "Мебель и декор под ключ",
-      "Персональный менеджер проекта",
-    ],
-    popular: true,
-  },
-]
+const storesMedia: { src: string; label: string; type: "image" | "video" }[] = []
 
 export function PricingSection() {
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
+
+  const prev = useCallback(() => {
+    setSelectedIndex((i) => (i !== null ? (i - 1 + storesMedia.length) % storesMedia.length : null))
+  }, [])
+
+  const next = useCallback(() => {
+    setSelectedIndex((i) => (i !== null ? (i + 1) % storesMedia.length : null))
+  }, [])
+
+  useEffect(() => {
+    if (selectedIndex === null) return
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") prev()
+      if (e.key === "ArrowRight") next()
+      if (e.key === "Escape") setSelectedIndex(null)
+    }
+    window.addEventListener("keydown", handler)
+    return () => window.removeEventListener("keydown", handler)
+  }, [selectedIndex, prev, next])
+
   return (
     <section id="pricing" className="bg-secondary px-6 py-24">
-      <div className="max-w-5xl mx-auto">
-        <motion.div
-          className="text-center mb-16"
+      <div className="max-w-7xl mx-auto">
+        <motion.p
+          className="text-muted-foreground text-sm uppercase tracking-widest mb-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Стоимость стенда под ключ</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Точная цена — после расчёта проекта под вашу площадку.</p>
-        </motion.div>
+          Наши работы
+        </motion.p>
+        <motion.h2
+          className="font-serif text-3xl md:text-4xl text-foreground mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+        >
+          Магазины, Шоу-румы
+        </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          {plans.map((plan, i) => (
-            <motion.div
-              key={i}
-              className={`relative bg-background rounded-xl p-8 ticket-edge ${plan.popular ? "ring-2 ring-primary" : ""}`}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              data-clickable
-            >
-              {plan.popular && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-lime text-foreground text-xs font-medium px-3 py-1 rounded-full">
-                  Популярный
-                </span>
-              )}
-
-              <div className="text-center pb-6 border-b border-dashed border-border">
-                <h3 className="font-serif text-xl text-foreground">{plan.name}</h3>
-                <div className="mt-4 flex items-baseline justify-center gap-1">
-                  <span className="text-4xl md:text-5xl font-serif text-foreground">{plan.price}</span>
-                  <span className="text-muted-foreground">{plan.period}</span>
-                </div>
-                <p className="text-muted-foreground text-sm mt-2">{plan.description}</p>
-              </div>
-
-              <ul className="mt-6 space-y-3">
-                {plan.features.map((feature, j) => (
-                  <li key={j} className="flex items-center gap-3 text-foreground">
-                    <Check className="w-4 h-4 text-primary flex-shrink-0" />
-                    <span className="text-sm">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <a
-                href="https://t.me/expomaxgroup"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`w-full mt-8 py-3 px-6 rounded-lg font-medium transition-colors text-center block ${
-                  plan.popular
-                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                    : "bg-secondary text-foreground hover:bg-accent/30"
-                }`}
+        {storesMedia.length === 0 ? (
+          <motion.div
+            className="bg-background rounded-xl p-12 text-center ticket-edge"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <p className="text-muted-foreground">
+              Здесь скоро появятся фото и видео наших магазинов и шоу-румов.
+            </p>
+          </motion.div>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+            {storesMedia.map((item, i) => (
+              <motion.div
+                key={i}
+                className="relative aspect-square rounded-xl overflow-hidden bg-background cursor-pointer group"
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.4, delay: (i % 4) * 0.07 }}
+                onClick={() => setSelectedIndex(i)}
                 data-clickable
               >
-                Рассчитать стенд
-              </a>
-            </motion.div>
-          ))}
-        </div>
+                {item.type === "video" ? (
+                  <video src={item.src} className="w-full h-full object-cover" muted playsInline />
+                ) : (
+                  <motion.img
+                    src={item.src}
+                    alt={item.label}
+                    className="w-full h-full object-cover"
+                    whileHover={{ scale: 1.08 }}
+                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                  />
+                )}
+                {item.type === "video" && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-white/20 backdrop-blur-sm rounded-full p-3">
+                      <Play className="w-6 h-6 text-white fill-white" />
+                    </div>
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <p className="text-white text-sm md:text-base font-bold leading-tight">{item.label}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        )}
       </div>
+
+      {/* Lightbox */}
+      <AnimatePresence>
+        {selectedIndex !== null && (
+          <motion.div
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedIndex(null)}
+          >
+            <motion.button
+              className="absolute top-5 right-5 bg-white/10 hover:bg-white/20 text-white rounded-full p-2 transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={() => setSelectedIndex(null)}
+              data-clickable
+            >
+              <X className="w-6 h-6" />
+            </motion.button>
+
+            <motion.button
+              className="absolute left-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={(e) => { e.stopPropagation(); prev() }}
+              data-clickable
+            >
+              <ChevronLeft className="w-7 h-7" />
+            </motion.button>
+
+            <div className="flex flex-col items-center gap-4" onClick={(e) => e.stopPropagation()}>
+              <AnimatePresence mode="wait">
+                {storesMedia[selectedIndex]?.type === "video" ? (
+                  <motion.video
+                    key={selectedIndex}
+                    src={storesMedia[selectedIndex].src}
+                    className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
+                    controls
+                    autoPlay
+                    initial={{ opacity: 0, x: 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -40 }}
+                    transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                  />
+                ) : (
+                  <motion.img
+                    key={selectedIndex}
+                    src={storesMedia[selectedIndex]?.src}
+                    alt={storesMedia[selectedIndex]?.label}
+                    className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
+                    initial={{ opacity: 0, x: 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -40 }}
+                    transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                  />
+                )}
+              </AnimatePresence>
+              <motion.p
+                key={`label-${selectedIndex}`}
+                className="text-white font-bold text-lg md:text-xl text-center"
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+              >
+                {storesMedia[selectedIndex]?.label}
+              </motion.p>
+            </div>
+
+            <motion.button
+              className="absolute right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              onClick={(e) => { e.stopPropagation(); next() }}
+              data-clickable
+            >
+              <ChevronRight className="w-7 h-7" />
+            </motion.button>
+
+            <div className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/40 text-sm">
+              {selectedIndex + 1} / {storesMedia.length}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   )
 }
