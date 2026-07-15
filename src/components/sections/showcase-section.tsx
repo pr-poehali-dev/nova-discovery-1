@@ -10,6 +10,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     images: [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/013fe6dd-d9d8-43eb-abb1-263c8637a398.png",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6be5f3ed-5e9b-4c71-af52-5181974f54e5.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d2e63de7-5dcd-4ce8-9802-50545b0fb19d.jfif",
     ],
   },
   {
