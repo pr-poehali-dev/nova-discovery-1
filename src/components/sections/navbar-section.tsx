@@ -21,10 +21,10 @@ export function NavbarSection() {
       </div>
 
       <nav className="hidden md:flex items-center gap-7">
-        <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Услуги</a>
-        <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Проекты</a>
-        <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>О компании</a>
-        <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-clickable>Цены</a>
+        <a href="#services" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Услуги</a>
+        <a href="#projects" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Проекты</a>
+        <a href="#about" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>О компании</a>
+        <a href="#pricing" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Цены</a>
       </nav>
 
       <a
