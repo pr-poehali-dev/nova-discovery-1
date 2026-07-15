@@ -62,6 +62,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/60936646-bb5a-49c6-8a16-aca24a1548fb.jpg", label: "Style · HouseHold 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fca3f111-981a-4200-b29b-09fcf98e6010.jpg", label: "ELCO · Рупластика 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec010f90-5c8a-49a4-b75f-82ecc658b0a1.jpg", label: "Moretto · Рупластика 2024" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98ba9a8d-1834-4b2e-960a-551485421d4d.jpeg", label: "Турбулентность Дон · РосГазЭкспо 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/87304dbc-b5f4-4a2c-ab0f-d832e78fc1ee.jpeg", label: "ASAP · Агропродмаш 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/65c4ac12-f58f-476a-acee-0ab7cf9ea34d.jpeg", label: "Smartway · Конференция Сочи 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ad6e15f3-efb7-47d4-a493-08539f2b2e86.jpeg", label: "Rocadamed · ДенталЭкспо 2019" },
