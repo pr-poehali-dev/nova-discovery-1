@@ -2,10 +2,17 @@ import { useState, useEffect, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
-const showcaseImages: { src: string; label: string }[] = [
+const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fb33528e-58ac-46fa-baa0-0332021c1f7f.png", label: "Антарес · Интеграция 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/013fe6dd-d9d8-43eb-abb1-263c8637a398.png", label: "Family Cosmetics · Интершарм Весна 2026" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e8fb3bc7-4eb4-41f3-8d4f-541d25f212f9.jpg", label: "Frambini · Продэкспо 2026" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e8fb3bc7-4eb4-41f3-8d4f-541d25f212f9.jpg",
+    label: "Frambini · Продэкспо 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e8fb3bc7-4eb4-41f3-8d4f-541d25f212f9.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/025782b1-9764-4ada-ab87-ac6a82afbee5.jfif",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/acdebdff-4abc-4907-9f56-4caf6ebf3d7a.png", label: "Философт · Rosbuild 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/663e2a32-4fd4-40ec-9d28-5df73819f999.png", label: "2M Group · Кабекс 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9a2fc39c-18de-4eaf-ac8c-88dda969002b.jpg", label: "ELCO Group · Рупластика 2026" },
@@ -100,25 +107,45 @@ const placeholderCount = TOTAL_SLOTS - showcaseImages.length
 
 export function ShowcaseSection() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
+  const [subIndex, setSubIndex] = useState(0)
+
+  const currentItem = selectedIndex !== null ? showcaseImages[selectedIndex] : null
+  const currentGallery = currentItem?.images ?? (currentItem ? [currentItem.src] : [])
 
   const prev = useCallback(() => {
     setSelectedIndex((i) => (i !== null ? (i - 1 + showcaseImages.length) % showcaseImages.length : null))
+    setSubIndex(0)
   }, [])
 
   const next = useCallback(() => {
     setSelectedIndex((i) => (i !== null ? (i + 1) % showcaseImages.length : null))
+    setSubIndex(0)
   }, [])
+
+  const subPrev = useCallback(() => {
+    setSubIndex((i) => (i - 1 + currentGallery.length) % currentGallery.length)
+  }, [currentGallery.length])
+
+  const subNext = useCallback(() => {
+    setSubIndex((i) => (i + 1) % currentGallery.length)
+  }, [currentGallery.length])
 
   useEffect(() => {
     if (selectedIndex === null) return
     const handler = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft") prev()
-      if (e.key === "ArrowRight") next()
+      if (e.key === "ArrowLeft") {
+        if (currentGallery.length > 1) subPrev()
+        else prev()
+      }
+      if (e.key === "ArrowRight") {
+        if (currentGallery.length > 1) subNext()
+        else next()
+      }
       if (e.key === "Escape") setSelectedIndex(null)
     }
     window.addEventListener("keydown", handler)
     return () => window.removeEventListener("keydown", handler)
-  }, [selectedIndex, prev, next])
+  }, [selectedIndex, prev, next, subPrev, subNext, currentGallery.length])
 
   return (
     <section id="projects" className="bg-background px-6 py-24">
@@ -150,7 +177,7 @@ export function ShowcaseSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.4, delay: (i % 4) * 0.07 }}
-              onClick={() => setSelectedIndex(i)}
+              onClick={() => { setSelectedIndex(i); setSubIndex(0) }}
               data-clickable
             >
               <motion.img
@@ -160,6 +187,11 @@ export function ShowcaseSection() {
                 whileHover={{ scale: 1.08 }}
                 transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
               />
+              {item.images && item.images.length > 1 && (
+                <div className="absolute top-2 right-2 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded-full">
+                  +{item.images.length - 1}
+                </div>
+              )}
               {/* Подпись при наведении */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -218,7 +250,7 @@ export function ShowcaseSection() {
               className="absolute left-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              onClick={(e) => { e.stopPropagation(); prev() }}
+              onClick={(e) => { e.stopPropagation(); currentGallery.length > 1 ? subPrev() : prev() }}
               data-clickable
             >
               <ChevronLeft className="w-7 h-7" />
@@ -227,8 +259,8 @@ export function ShowcaseSection() {
             <div className="flex flex-col items-center gap-4" onClick={(e) => e.stopPropagation()}>
               <AnimatePresence mode="wait">
                 <motion.img
-                  key={selectedIndex}
-                  src={showcaseImages[selectedIndex].src}
+                  key={`${selectedIndex}-${subIndex}`}
+                  src={currentGallery[subIndex]}
                   alt={showcaseImages[selectedIndex].label}
                   className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
                   initial={{ opacity: 0, x: 40 }}
@@ -246,13 +278,23 @@ export function ShowcaseSection() {
               >
                 {showcaseImages[selectedIndex].label}
               </motion.p>
+              {currentGallery.length > 1 && (
+                <div className="flex gap-2">
+                  {currentGallery.map((_, gi) => (
+                    <div
+                      key={gi}
+                      className={`w-2 h-2 rounded-full transition-colors ${gi === subIndex ? "bg-white" : "bg-white/30"}`}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
 
             <motion.button
               className="absolute right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-3 transition-colors"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              onClick={(e) => { e.stopPropagation(); next() }}
+              onClick={(e) => { e.stopPropagation(); currentGallery.length > 1 ? subNext() : next() }}
               data-clickable
             >
               <ChevronRight className="w-7 h-7" />
@@ -260,6 +302,7 @@ export function ShowcaseSection() {
 
             <div className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/40 text-sm">
               {selectedIndex + 1} / {showcaseImages.length}
+              {currentGallery.length > 1 && <span> · фото {subIndex + 1}/{currentGallery.length}</span>}
             </div>
           </motion.div>
         )}
