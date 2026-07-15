@@ -163,7 +163,7 @@ export function ShowcaseSection() {
               {/* Подпись при наведении */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p className="text-white text-xs font-medium leading-tight">{item.label}</p>
+                <p className="text-white text-sm md:text-base font-bold leading-tight">{item.label}</p>
               </div>
             </motion.div>
           ))}
@@ -239,7 +239,7 @@ export function ShowcaseSection() {
               </AnimatePresence>
               <motion.p
                 key={`label-${selectedIndex}`}
-                className="text-white font-medium text-base text-center"
+                className="text-white font-bold text-lg md:text-xl text-center"
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
