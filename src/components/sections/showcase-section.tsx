@@ -61,6 +61,7 @@ const showcaseImages: { src: string; label: string }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64ca6931-519e-4db3-80c7-e8fc8898d05f.JPG", label: "FB Team · Подарки Гостинный двор 2010" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/010050dd-e35f-4a46-9a4c-0f2becf8042e.JPG", label: "ГруппаСвезз · Электро 2007" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/74b87178-f69f-498d-b3ee-d065d44e3dcc.jpg", label: "Ремеко · Подарки 2008" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a41bf376-149d-4bc9-936f-8d5639c11d4e.jpg", label: "Клеверпарк · ParkingRussia 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1fc98a40-ff3d-4798-8d68-9801cbd0d516.jpg", label: "Style · HouseHold 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9c51c0ff-6494-4c62-be57-4d68ee75aed1.jpg", label: "Kelli · HouseHold 2020" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cc571d38-e5e2-4556-a031-e261d0fcb653.jpeg", label: "АО Заслон · МВМС 2019" },
