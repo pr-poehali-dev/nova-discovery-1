@@ -24,7 +24,7 @@ export function NavbarSection() {
         <a href="#services" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Услуги</a>
         <a href="#projects" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Проекты</a>
         <a href="#about" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>О компании</a>
-        <a href="#pricing" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Цены</a>
+        <a href="#pricing" className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors" data-clickable>Магазины, Шоу-румы</a>
       </nav>
 
       <a
