@@ -179,7 +179,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f4042bbe-e5ac-4eaf-bf7c-0b4c9870d780.jpg", label: "Раменская мебельная компания · ЕЕМ 2009" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b78ba72c-421b-4b36-a1cd-e909c8e18ff1.jpg", label: "Continental · Комтранс 2008" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/769b24ad-9561-4132-a980-e08864e9c763.JPG", label: "Liqui Moly · Автосалон 2008" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/66ee867e-eb38-4f3f-86c4-736209fadc3b.jpg", label: "Очаково · Продэкспо 2008" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/66ee867e-eb38-4f3f-86c4-736209fadc3b.jpg",
+    label: "Очаково · Продэкспо 2008",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/66ee867e-eb38-4f3f-86c4-736209fadc3b.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3820fb12-4309-4896-8b96-d06b99732b36.png",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/74b87178-f69f-498d-b3ee-d065d44e3dcc.jpg", label: "Ремеко · Подарки 2008" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/010050dd-e35f-4a46-9a4c-0f2becf8042e.JPG", label: "ГруппаСвезз · Электро 2007" },
 ]
