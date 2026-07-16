@@ -115,6 +115,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     images: [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/65c00d66-c06a-446b-bc01-c80e97415980.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1573d766-acb3-4c78-98a9-168947e261ed.png",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dfac0359-9774-4d08-bda6-7f0638cde591.png",
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg", label: "Amenari · CoffeeTeaCacaoExpo 2024" },
