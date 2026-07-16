@@ -52,6 +52,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c929990e-7961-49da-8d6e-e196d8755da8.png",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a2c50935-ea85-4003-b541-98c78efcbd75.png",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/343bd04c-b2fb-410e-a965-843c2c0590b4.png",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/30034f03-2f6f-4998-8ff3-a67e10a7098a.png",
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0dcf2ffc-0b95-48b4-9f71-6b573de9a3b3.jpg", label: "Насберри · Продэкспо 2026" },
