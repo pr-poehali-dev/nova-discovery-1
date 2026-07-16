@@ -47,6 +47,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     images: [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9a2fc39c-18de-4eaf-ac8c-88dda969002b.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/974f93f8-b94c-4df9-a62e-008f0026ea84.png",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/47006a91-0654-47f3-a78c-0b625ca5d45a.png",
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d506ac1a-c544-4359-9afc-6f497925635d.jpg", label: "Moreto · Рупластика 2026" },
