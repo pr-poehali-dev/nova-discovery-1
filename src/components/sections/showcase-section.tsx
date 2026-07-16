@@ -206,7 +206,7 @@ export function ShowcaseSection() {
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
         >
-          {showcaseImages.length} реализованных стендов
+          Реализованные стенды
         </motion.h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
