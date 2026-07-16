@@ -47,7 +47,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9f944ea8-2600-4401-9eb2-fba94620ad54.jpg", label: "ТД Аскания · Продэкспо 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0dcf2ffc-0b95-48b4-9f71-6b573de9a3b3.jpg", label: "Насберри · Продэкспо 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a483f7de-9eed-489a-9cf4-3203ed20d343.jpg", label: "Философт · Движение Экспо-Сочи 2025" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d32a7b-afe4-41c2-8fef-5b5ad3a085a1.jpg", label: "Frambini · WorldFood 2025" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d32a7b-afe4-41c2-8fef-5b5ad3a085a1.jpg",
+    label: "Frambini · WorldFood 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d32a7b-afe4-41c2-8fef-5b5ad3a085a1.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a8d2a219-698c-47b5-9a92-aaa0cb5da7c0.png",
+    ],
+  },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a46ac291-6f4d-4e7e-af44-3498168c84a4.jpg",
     label: "B-flexy · Интершарм 2025",
