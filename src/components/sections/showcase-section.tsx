@@ -89,7 +89,17 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e9ee4865-1327-41a4-837c-9132ecf57262.jpg", label: "Философт · Rosbuild 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg", label: "БМ Сервис · Росупак 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/855304dc-1cee-4977-b17b-3e3eff330b3f.jpg", label: "ТД БМсервис · Росупак 2025" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6c8c23b-1db2-4598-a710-863f9a04ec03.jpg", label: "Sofi De Marko · HomeTextile&Design 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6c8c23b-1db2-4598-a710-863f9a04ec03.jpg",
+    label: "Sofi De Marko · HomeTextile&Design 2024",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6c8c23b-1db2-4598-a710-863f9a04ec03.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1d0eb245-374b-45b9-8c94-853510235c9c.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7202dabc-81c0-47aa-9c42-6bf6fb366b46.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6143e2c-f382-4f0e-a088-ad46e4bebb12.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/df809fbb-aa5c-41e4-955a-6c9115838383.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d4b77fd8-7b55-4c4b-98b9-8fd357797e09.jpeg", label: "Эксперт · Металлообработка 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41f39706-42a1-43ba-86f7-ee007e236987.jpg", label: "Ola Dom · ЦветыЭкспо 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/90dfcdab-162e-4f6e-b08b-97a44adfbc47.jpg", label: "Kelli · HouseHold 2024" },
