@@ -104,7 +104,15 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41f39706-42a1-43ba-86f7-ee007e236987.jpg", label: "Ola Dom · ЦветыЭкспо 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/90dfcdab-162e-4f6e-b08b-97a44adfbc47.jpg", label: "Kelli · HouseHold 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/60936646-bb5a-49c6-8a16-aca24a1548fb.jpg", label: "Style · HouseHold 2024" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fca3f111-981a-4200-b29b-09fcf98e6010.jpg", label: "ELCO · Рупластика 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fca3f111-981a-4200-b29b-09fcf98e6010.jpg",
+    label: "ELCO · Рупластика 2024",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fca3f111-981a-4200-b29b-09fcf98e6010.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/706b9973-ec90-48f8-8a5c-da4fa094eae3.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/96c27f90-858c-4140-b575-1c45afa6eb35.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec010f90-5c8a-49a4-b75f-82ecc658b0a1.jpg", label: "Moretto · Рупластика 2024" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/65c00d66-c06a-446b-bc01-c80e97415980.jpeg",
