@@ -201,7 +201,15 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0c9943c6-fa69-4fbd-8193-7bddc953e563.jpg", label: "ЮгРАС · ЮгАгро 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7ce9c188-b4e7-4bff-995c-75be3b391c0e.JPG", label: "LAB+ · Росупак 2019" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6b14d1c4-183b-4f6f-8600-3cc163b446df.JPG", label: "Hangbo · Митекс 2019" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f6aeba7f-8b06-4bab-80b8-c04793025b61.JPG", label: "RBK money · RIV 2019" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f6aeba7f-8b06-4bab-80b8-c04793025b61.JPG",
+    label: "RBK money · RIV 2019",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f6aeba7f-8b06-4bab-80b8-c04793025b61.JPG",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b9d40a7b-5f96-4609-b138-1aba5860764e.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/846908c4-360b-48e6-b00c-7dc24f86f07c.jpeg",
+    ],
+  },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0c66295a-36e3-4376-a8e4-4a085e6f70f1.jpg",
     label: "Spro Systems · НатЭкспо 2019",
