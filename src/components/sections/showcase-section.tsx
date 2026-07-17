@@ -127,7 +127,15 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f3c6ddaf-0948-4f20-a294-2860464b4922.jpg", label: "Coffefest · CoffeeTeaCacaoExpo 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cb08541e-fc82-47ae-9384-5d829c0dab1c.jpg", label: "Sofi de Marko · Hometextil&Design 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6de327f6-79b1-478f-8595-4527a36460ad.jpg", label: "Neoterica · Ветконгресс 2024" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/32a8ca95-1d97-43d4-b914-23fc65ff5de7.jpg", label: "ТД БМсервис · Росупак 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/32a8ca95-1d97-43d4-b914-23fc65ff5de7.jpg",
+    label: "ТД БМсервис · Росупак 2024",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/32a8ca95-1d97-43d4-b914-23fc65ff5de7.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a966349f-0304-4c10-991a-a067592680f9.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c5b4ffd6-a91a-4b8e-9a81-0408af68d9a6.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e0f4ed50-bd73-4a8b-ab75-b6d0f6e75d42.jpg", label: "2M Group · Связь 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/eacdb26f-c868-4a55-afb5-750ce22a7c7d.jpg", label: "Sky Agro · Агрос 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d7892db8-d0f7-43fe-9a61-c586623c7363.jpeg", label: "ГК Агробизнес · ЮгАгро 2023" },
