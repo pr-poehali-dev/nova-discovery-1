@@ -156,7 +156,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f1ebacb5-5b2e-4fc4-824e-95376bf831da.jpg", label: "Aesthetic Air · МирКлимата 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/08a7abd2-a6ee-4ac7-a23e-e0bfa17b04a8.jpg", label: "Арт-Ко · ModernBakery 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c93488f6-ab48-4ce1-af1b-c28ce1ba96c0.jpeg", label: "Ролик Team · Интерткань 2022" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3052bee9-c638-4d1b-a692-5c9210b6acdb.jpeg", label: "Gala Poly Graph · Текстильлегпром 2022" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3052bee9-c638-4d1b-a692-5c9210b6acdb.jpeg",
+    label: "Gala Poly Graph · Текстильлегпром 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3052bee9-c638-4d1b-a692-5c9210b6acdb.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/807cd48c-1a03-4a01-a35d-3323a5a3af3a.jpeg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/394e5b26-2476-4d5a-a38f-c469ea3c2eeb.jpeg", label: "Kelli · HouseHold 2022" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/29e65be9-61ed-4c4f-bc1a-c209690645c1.jpeg",
