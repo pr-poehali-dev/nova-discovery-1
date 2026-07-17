@@ -164,7 +164,17 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/807cd48c-1a03-4a01-a35d-3323a5a3af3a.jpeg",
     ],
   },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/394e5b26-2476-4d5a-a38f-c469ea3c2eeb.jpeg", label: "Kelli · HouseHold 2022" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/394e5b26-2476-4d5a-a38f-c469ea3c2eeb.jpeg",
+    label: "Kelli · HouseHold 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/394e5b26-2476-4d5a-a38f-c469ea3c2eeb.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1b0971d5-906e-41c0-a323-ea982e070b90.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c79895a9-355a-454d-ae68-a502406efab2.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/8375cf31-1414-4c8d-b18d-aa42607d5993.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/198ca7de-bf4b-47db-a3f7-92d1d6e11f67.jpeg",
+    ],
+  },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/29e65be9-61ed-4c4f-bc1a-c209690645c1.jpeg",
     label: "Sofi de Marko · Hometextil&Design 2022",
