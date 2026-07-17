@@ -175,7 +175,18 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/74286f92-d6b5-45de-8473-90cd1c75b921.jpeg", label: "Металлист · МеталлЭкспо 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c0761c2e-2af5-4b8c-a41e-8f462a2d931c.jpeg", label: "Adams Chemicals · Pharmtech&Ingredient 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/17544036-be8b-4911-85ea-7fa9e3bbe28a.jpeg", label: "Herbarista · ПИР 2022" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3d7c42f2-13cc-4c8c-9046-e388e1d4904c.jpeg", label: "Amenari · ПИР 2022" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3d7c42f2-13cc-4c8c-9046-e388e1d4904c.jpeg",
+    label: "Amenari · ПИР 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3d7c42f2-13cc-4c8c-9046-e388e1d4904c.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b4ae5924-66ce-40f2-85d9-5424c05390f5.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b7c18b7b-b923-425d-ba9e-fbc46b2ccba4.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/314b4de9-d659-4724-9b8c-f2afe42e2023.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d2842e48-caff-434c-b6a5-e36da048755d.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cba83c2c-fc22-42ab-a04f-90a4027222ed.jpeg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f59c777e-6668-4841-b8e1-cf9899c67b38.jpeg", label: "Tiara Medical · Здравоохранение 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e79be178-19be-46fd-ae60-d523e2a3472f.jpg", label: "Sofi de Marko · Hometextil&Design 2021" },
   {
