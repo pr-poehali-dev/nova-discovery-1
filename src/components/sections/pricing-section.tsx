@@ -41,6 +41,19 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/400884bb-a220-4cf0-a2f3-a0235df480b2.JPG", label: "jvc 2", type: "image" },
     ],
   },
+  {
+    name: "офис",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d9b91b84-b191-4d98-bbe5-c288685c2289.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d57c89fe-d1b7-4b92-bfac-426a38f016c8.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f094080b-6004-4134-a902-520ad0188439.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/681e8b45-103f-403f-a7f2-99afc692ace9.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a1f06a7f-7431-48c4-b439-af876f257c24.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aedc46aa-7383-466b-aebf-b9f685f3e54a.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c0ab66c-979a-4031-a18a-5a72ffa14fd6.jpg", label: "офис", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/710ee132-a027-4790-b834-9b2803abd41d.jpg", label: "офис", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
