@@ -54,6 +54,21 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/710ee132-a027-4790-b834-9b2803abd41d.jpg", label: "офис", type: "image" },
     ],
   },
+  {
+    name: "пересвет",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/05990e8b-fbbc-4688-8f34-ee65bd3b090a.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ce091172-1c71-47a5-be06-0a09ad927db8.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d4da6350-e014-4633-9ca8-a3a3e61d2ec5.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/beda0aad-230d-4911-aa55-c82ef066cbb3.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ee1ee88b-474c-408a-b65e-ce3112127408.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f3dbd3e7-32ea-45af-84bd-dfe865ca0ac9.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/198d09be-6da3-4da8-8620-700e2504578d.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41768019-0e3f-4989-99cd-e6d802f1d829.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/04a4a403-8ba1-4fdf-8ed6-2b7f882bec69.jpg", label: "пересвет", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4fc44e42-78e5-491e-bb59-4b2c51cc7efa.jpg", label: "пересвет", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
