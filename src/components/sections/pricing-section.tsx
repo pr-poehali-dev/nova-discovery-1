@@ -2,7 +2,17 @@ import { useState, useEffect, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, ChevronLeft, ChevronRight, Play } from "lucide-react"
 
-const storesMedia: { src: string; label: string; type: "image" | "video" }[] = []
+const storesMedia: { src: string; label: string; type: "image" | "video" }[] = [
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d5eee2f3-cc3b-4a39-8e98-92ad77fa011f.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f40ecf27-caf3-4ae0-8df1-6f78e0203be7.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/37160cb7-ea47-487e-b62b-af6badd59c12.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e87ed973-d264-4480-b400-8d391044118a.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9979bea2-7c85-4708-930f-325a502fc9f6.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4f762773-3687-4408-8f5e-d6b0c89b8db4.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/47a8759a-1520-4b23-8fa8-ac9d36d8d19a.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/94d15315-aede-4bc4-a1af-e9bbacbc7c03.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/53ddc2a1-98c3-404f-a170-c13fc097f666.JPG", label: "jvc1", type: "image" },
+]
 
 export function PricingSection() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
