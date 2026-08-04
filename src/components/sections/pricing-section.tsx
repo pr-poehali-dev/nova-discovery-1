@@ -92,6 +92,21 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cd0cc1a6-2867-4793-b29d-b4a0a215073a.JPG", label: "рамарт 2", type: "image" },
     ],
   },
+  {
+    name: "югас 1",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bb867d07-7f31-46bf-8a8c-456c1cf8f097.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6f89fd32-faa0-427e-ad61-97efa845c4b3.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/890cd637-d87a-4535-8e4c-f8603981975b.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1363e91e-5e3d-4b3a-a2a5-72308c4517e2.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/101e1002-5539-48c8-abd8-e389b601f2c6.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/44024008-62a2-42d1-8eaf-fe463da09203.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/01024472-368b-47d3-938b-5af62821c508.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/18140973-8092-4ee9-ae82-15f6461d56d8.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/480dc40f-57c7-4a1d-82a1-3424842d9fd5.JPG", label: "югас 1", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/309b0144-e61d-4709-a592-99c185f49128.JPG", label: "югас 1", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
