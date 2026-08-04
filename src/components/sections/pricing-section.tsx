@@ -12,6 +12,22 @@ const storesMedia: { src: string; label: string; type: "image" | "video" }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/47a8759a-1520-4b23-8fa8-ac9d36d8d19a.JPG", label: "jvc1", type: "image" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/94d15315-aede-4bc4-a1af-e9bbacbc7c03.JPG", label: "jvc1", type: "image" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/53ddc2a1-98c3-404f-a170-c13fc097f666.JPG", label: "jvc1", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e3c11a62-2396-4ecc-a85b-69214656e839.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9544d589-f5c3-4b62-8138-5713be3db261.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/404dccf0-ad94-4fe6-99bf-071c48c8f18c.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7a519976-9e68-4dc9-b6a4-88744c1d6b2f.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/888949bc-3102-4dec-9ac6-75262812ace7.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b36db197-19e7-4f73-8525-a01f7519707a.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/90108812-d8e1-494e-8a70-7af76cca609c.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a4d13130-b17d-4de5-930e-13a5933c9225.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ea73738a-5665-4e7f-9fc4-c233838ae347.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/df87961d-c642-4326-bec0-33c7623a6ef5.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bedf383e-aea1-4246-9815-5bfe5f643439.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/293c586a-73aa-4785-9281-ba5176ae8dde.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/11acb00f-d4e0-4cec-9a26-8f0ff0bacfcd.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/afb5a19e-46e6-46c9-9c43-fbe5a04f4a5f.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9ef1ff24-c86a-4814-b7dc-86b57b41b0d9.JPG", label: "jvc 2", type: "image" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/400884bb-a220-4cf0-a2f3-a0235df480b2.JPG", label: "jvc 2", type: "image" },
 ]
 
 export function PricingSection() {
