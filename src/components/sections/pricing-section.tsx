@@ -107,6 +107,19 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/309b0144-e61d-4709-a592-99c185f49128.JPG", label: "югас 1", type: "image" },
     ],
   },
+  {
+    name: "югас 2",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/88e64711-2abd-4dd2-983d-47e9885d3dc9.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ead2414f-9ad2-44d9-b3cf-51e2ddc03864.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bd2c5176-84d2-4989-a77a-6b4068c11287.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/97b9363f-9049-4026-b4ed-b6f59daab072.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9a85addf-9858-46e8-9308-c430817dbc05.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07494ebc-d7a5-4c56-a1ca-44e74bedb39f.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/11e1251a-aad1-4166-a9f4-ee3275210320.JPG", label: "югас 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fc141b2a-f530-4909-ab55-038ae2a8c38b.JPG", label: "югас 2", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
