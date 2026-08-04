@@ -81,6 +81,17 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ab9af2e7-5394-44be-95ca-a76f9a76d972.JPG", label: "рамарт 1", type: "image" },
     ],
   },
+  {
+    name: "рамарт 2",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/8d274b3f-3758-4bbf-88ab-aab2c0a79c48.JPG", label: "рамарт 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5d470b0c-8ef5-4a19-9535-121f9c9a99d9.JPG", label: "рамарт 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/eb1a835b-cad3-491f-990d-501943037117.JPG", label: "рамарт 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d60377c6-5b24-4e18-9d4b-6c1ed56cf627.JPG", label: "рамарт 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c41e11bf-e511-4814-a928-d4102f928d28.JPG", label: "рамарт 2", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cd0cc1a6-2867-4793-b29d-b4a0a215073a.JPG", label: "рамарт 2", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
