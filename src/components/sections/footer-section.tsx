@@ -77,6 +77,13 @@ export function FooterSection() {
             </a>
           </div>
         </div>
+
+        <div className="mt-8 pt-6 border-t border-border/60 text-muted-foreground/70 text-xs leading-relaxed">
+          <p>ООО «ЭКСПОНЕЙМ» · ИНН 9734007616 · КПП 773401001 · ОГРН 1247700731497</p>
+          <p className="mt-1">
+            Юридический адрес: 123098, г. Москва, вн.тер.г. муниципальный округ Щукино, ул. Рогова, д. 12, помещ. 2П
+          </p>
+        </div>
       </div>
     </footer>
   )
