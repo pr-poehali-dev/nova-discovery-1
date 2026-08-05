@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { Phone } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const footerLinks = [
   { label: "Услуги", href: "#services" },
@@ -68,9 +69,9 @@ export function FooterSection() {
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">2026 ЭкспоМаксГрупп. Все права защищены.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-muted-foreground hover:text-foreground text-sm" data-clickable>
+            <Link to="/privacy-policy" className="text-muted-foreground hover:text-foreground text-sm" data-clickable>
               Конфиденциальность
-            </a>
+            </Link>
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm" data-clickable>
               Условия
             </a>

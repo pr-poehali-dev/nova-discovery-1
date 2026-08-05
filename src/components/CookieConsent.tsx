@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const STORAGE_KEY = "cookie-consent";
@@ -30,7 +31,11 @@ const CookieConsent = () => {
     <div className="fixed bottom-0 left-0 right-0 z-[100] px-4 pb-4 animate-in slide-in-from-bottom-8 duration-500">
       <div className="mx-auto max-w-3xl rounded-2xl border border-border bg-card/95 backdrop-blur-md shadow-2xl p-5 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <p className="text-sm text-foreground/80 leading-relaxed flex-1">
-          Мы используем файлы cookie, чтобы сайт работал корректно и был удобнее для вас. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием.
+          Мы используем файлы cookie, чтобы сайт работал корректно и был удобнее для вас. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием. Подробнее — в{" "}
+          <Link to="/privacy-policy" className="underline hover:text-foreground">
+            политике конфиденциальности
+          </Link>
+          .
         </p>
         <div className="flex gap-2 shrink-0 w-full sm:w-auto">
           <Button variant="outline" size="sm" onClick={handleDecline} className="flex-1 sm:flex-none">
