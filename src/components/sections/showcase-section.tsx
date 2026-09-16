@@ -180,7 +180,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dfac0359-9774-4d08-bda6-7f0638cde591.png",
     ],
   },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg", label: "Amenari · CoffeeTeaCacaoExpo 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg",
+    label: "Amenari · CoffeeTeaCacaoExpo 2024",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5694377a-f639-49bb-a820-0980a2f00f65.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/04602ca2-5223-4c46-945e-b39dcfd24d0d.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f3c6ddaf-0948-4f20-a294-2860464b4922.jpg", label: "Coffefest · CoffeeTeaCacaoExpo 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cb08541e-fc82-47ae-9384-5d829c0dab1c.jpg", label: "Sofi de Marko · Hometextil&Design 2024" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6de327f6-79b1-478f-8595-4527a36460ad.jpg", label: "Neoterica · Ветконгресс 2024" },
