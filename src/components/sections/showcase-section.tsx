@@ -384,6 +384,16 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/74b87178-f69f-498d-b3ee-d065d44e3dcc.jpg", label: "Ремеко · Подарки 2008" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/010050dd-e35f-4a46-9a4c-0f2becf8042e.JPG", label: "ГруппаСвезз · Электро 2007" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
+    label: "Инреко · Металлообработка 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2069f165-9d91-4483-a358-f5e2e8a28616.png",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b36f4865-082a-4da9-8ba1-0c598d802ad1.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/380b206a-b7a6-4bfd-a5a6-440639cf7ba7.mp4",
+    ],
+  },
 ]
 
 const TOTAL_SLOTS = 48
@@ -542,16 +552,30 @@ export function ShowcaseSection() {
 
             <div className="flex flex-col items-center gap-4" onClick={(e) => e.stopPropagation()}>
               <AnimatePresence mode="wait">
-                <motion.img
-                  key={`${selectedIndex}-${subIndex}`}
-                  src={currentGallery[subIndex]}
-                  alt={showcaseImages[selectedIndex].label}
-                  className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
-                  initial={{ opacity: 0, x: 40 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: -40 }}
-                  transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-                />
+                {currentGallery[subIndex].endsWith(".mp4") ? (
+                  <motion.video
+                    key={`${selectedIndex}-${subIndex}`}
+                    src={currentGallery[subIndex]}
+                    className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
+                    controls
+                    autoPlay
+                    initial={{ opacity: 0, x: 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -40 }}
+                    transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                  />
+                ) : (
+                  <motion.img
+                    key={`${selectedIndex}-${subIndex}`}
+                    src={currentGallery[subIndex]}
+                    alt={showcaseImages[selectedIndex].label}
+                    className="max-w-full max-h-[80vh] rounded-xl object-contain shadow-2xl"
+                    initial={{ opacity: 0, x: 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -40 }}
+                    transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                  />
+                )}
               </AnimatePresence>
               <motion.p
                 key={`label-${selectedIndex}`}
