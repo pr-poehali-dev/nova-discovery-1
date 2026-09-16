@@ -4,6 +4,18 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
+    label: "SKY Agro · Агрос 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b7f9519e-88a1-42c8-94a3-4504dada6c17.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e2846799-f27c-4cb8-abb3-eaaa7aabb0de.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d6f499fc-9779-44ef-9570-cf925b200722.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b771b169-76df-4fd4-b768-3efb393ec877.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/167eb529-5aaa-4cc7-92f8-54d4f68a4124.jpg",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
     label: "ASAP · Агропродмаш 2022",
     images: [
