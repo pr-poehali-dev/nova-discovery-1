@@ -4,6 +4,18 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5999ffb8-7409-420d-b553-b3a98f77e3e1.jpg",
+    label: "Frambini · WorldFood 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5999ffb8-7409-420d-b553-b3a98f77e3e1.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/273f952f-2a0b-477e-9765-2fdfb721e45f.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf1d2a09-9322-4780-8223-8fa17ec6930c.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d54b434b-43d5-4df8-9c2d-35c731f1923b.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bb66e65c-4d2c-4901-beae-84e0e03db0a9.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9e381a59-c6bd-4ff8-b5ed-5e0235ff2cf2.jfif",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6a63bbed-b6f4-4a1b-a147-7f432789b2d9.jpg",
     label: "AllPower Battery · MIMS 2026",
     images: [
