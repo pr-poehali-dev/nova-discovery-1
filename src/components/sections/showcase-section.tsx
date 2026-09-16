@@ -4,6 +4,15 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
+    label: "ASAP · Агропродмаш 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dba3d9cc-1bb6-451e-8ca4-be3e1113fec3.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d255d2a3-930a-49b1-97f7-7f0eaa26ee60.jpeg",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ff7b9f0e-8085-4b05-a8c1-5f7fae37f88f.jpg",
     label: "Revada · РТИ Шины Каучуки 2025",
     images: [
