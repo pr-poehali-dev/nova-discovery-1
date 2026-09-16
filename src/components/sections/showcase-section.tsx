@@ -396,6 +396,15 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/380b206a-b7a6-4bfd-a5a6-440639cf7ba7.mp4",
     ],
   },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
+    label: "Азимут · Металлообработка 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7bc410ed-9cbe-422c-9fac-f3b45fcbc03c.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e85b10fa-ca80-4132-a761-59c9830ece12.jfif",
+    ],
+  },
 ]
 
 const TOTAL_SLOTS = 48
