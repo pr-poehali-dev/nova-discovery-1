@@ -178,6 +178,19 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d4b77fd8-7b55-4c4b-98b9-8fd357797e09.jpeg", label: "Эксперт · Металлообработка 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
+    label: "Эксперт · Металлообработка 2023",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b9832861-da55-4029-be0d-da21824793b4.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/72934844-868c-4c12-b2f2-c7e08672e409.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/631425a3-35c3-41af-9622-de044756d3a5.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b8196bdc-b769-4fcc-a267-0c749f785950.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a7a97fdb-66af-4486-a5e0-2530d5ba2055.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7d03f731-c70d-432c-9387-6c227114a216.jpeg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41f39706-42a1-43ba-86f7-ee007e236987.jpg", label: "Ola Dom · ЦветыЭкспо 2024" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/90dfcdab-162e-4f6e-b08b-97a44adfbc47.jpg",
