@@ -287,6 +287,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
+    label: "NOVI.GROUP · ПИР 2023",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1b9075de-3c69-4860-bc71-ef56cf1b76f0.jpeg",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2be8f2db-c55c-4fcb-8689-c5c73f15c9e0.jpg",
     label: "Händle ZMB Braun · ОСМ 2022",
     images: [
