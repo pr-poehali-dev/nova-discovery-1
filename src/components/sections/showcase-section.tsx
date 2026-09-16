@@ -133,6 +133,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/06591754-5041-4acd-be1d-1ecfef8d0188.png",
     ],
   },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5f633149-1d3c-49bf-a986-7fc3fae0df8d.jpg",
+    label: "B-flexy · Интершарм 2025 Весна",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5f633149-1d3c-49bf-a986-7fc3fae0df8d.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63c11e9d-4630-4f81-bc3f-73806abee537.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c69fea19-6ec1-4600-83a6-91c08e17ca23.jpg", label: "Kelli Group · HouseHold 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7fb1266b-1e77-413b-a5ba-61574fc772d9.jpg", label: "Артак · БИОТ 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/84595748-1240-403d-8c2e-32a346ca96df.jpg", label: "Артак · БИОТ 2025" },
