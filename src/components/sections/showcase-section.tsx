@@ -162,6 +162,22 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c69fea19-6ec1-4600-83a6-91c08e17ca23.jpg", label: "Kelli Group · HouseHold 2025" },
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
+    label: "Цимус · Цветы 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5fff169f-6747-4d30-800b-400124641d51.jpg",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a3fabfbb-d156-4cdd-b145-3e332bfc1ffb.jfif",
+    label: "Цимус · Цветы 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a3fabfbb-d156-4cdd-b145-3e332bfc1ffb.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c57c7fb-b965-478c-964d-71e8b811b48b.jfif",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
     label: "LAM Solar · Евразия НашДом 2023 Сочи",
     images: [
