@@ -162,6 +162,18 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c69fea19-6ec1-4600-83a6-91c08e17ca23.jpg", label: "Kelli Group · HouseHold 2025" },
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/950c4e85-d84c-415b-8999-f2a55c651ef1.jpg",
+    label: "Энсонс · Электрические сети 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/950c4e85-d84c-415b-8999-f2a55c651ef1.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/24c8588b-4323-4b5e-8344-7488049351a8.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/03cc4ee3-bd2c-4e37-bc89-542c49285a69.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b8e62573-f473-4192-8861-e45a3a0488e6.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2bbbf07d-7038-4f1d-874f-0395d9f63f1d.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e07380e1-47e0-4882-a3eb-936fcc70a0fd.jpg",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
     label: "Цимус · Цветы 2026",
     images: [
