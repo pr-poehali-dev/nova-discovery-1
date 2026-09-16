@@ -286,6 +286,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2be8f2db-c55c-4fcb-8689-c5c73f15c9e0.jpg",
+    label: "Händle ZMB Braun · ОСМ 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2be8f2db-c55c-4fcb-8689-c5c73f15c9e0.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e3bef135-2a5b-444a-9b31-b2ed02901267.jpg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f59c777e-6668-4841-b8e1-cf9899c67b38.jpeg", label: "Tiara Medical · Здравоохранение 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e79be178-19be-46fd-ae60-d523e2a3472f.jpg", label: "Sofi de Marko · Hometextil&Design 2021" },
   {
