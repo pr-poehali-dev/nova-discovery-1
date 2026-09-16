@@ -285,6 +285,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cba83c2c-fc22-42ab-a04f-90a4027222ed.jpeg",
     ],
   },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f59c777e-6668-4841-b8e1-cf9899c67b38.jpeg", label: "Tiara Medical · Здравоохранение 2022" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e79be178-19be-46fd-ae60-d523e2a3472f.jpg", label: "Sofi de Marko · Hometextil&Design 2021" },
   {
