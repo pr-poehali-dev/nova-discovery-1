@@ -118,6 +118,15 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f13d71fa-b272-4ed4-962a-5f6e19fd554e.jpg",
+    label: "Философт · Движение Экспо-Сочи 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f13d71fa-b272-4ed4-962a-5f6e19fd554e.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3b14c6db-91cf-4e1d-bdfb-32baa99cb6a0.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/517dec0d-8a45-4b0c-805a-d858ce2e8c15.png",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a483f7de-9eed-489a-9cf4-3203ed20d343.jpg",
     label: "Философт · Движение Экспо-Сочи 2025",
     images: [
