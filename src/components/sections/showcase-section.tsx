@@ -117,7 +117,16 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7b6bd074-ed2d-4408-9adc-b6411b140eec.jfif",
     ],
   },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a483f7de-9eed-489a-9cf4-3203ed20d343.jpg", label: "Философт · Движение Экспо-Сочи 2025" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a483f7de-9eed-489a-9cf4-3203ed20d343.jpg",
+    label: "Философт · Движение Экспо-Сочи 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a483f7de-9eed-489a-9cf4-3203ed20d343.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/09642795-e6a9-4dca-b735-e3daa1a0189b.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1987f6e9-6a82-42aa-b1c5-1ee2725818af.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fbba9e33-6088-4273-8974-d7ba43607f46.jpg",
+    ],
+  },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d32a7b-afe4-41c2-8fef-5b5ad3a085a1.jpg",
     label: "Frambini · WorldFood 2025",
