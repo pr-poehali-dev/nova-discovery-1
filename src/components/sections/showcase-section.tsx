@@ -287,6 +287,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
   {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
+    label: "Eagleway · Трансроссия 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/51f9c6c3-98f1-432b-a994-1b7f26c0d685.jpg",
+    ],
+  },
+  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
     label: "NOVI.GROUP · ПИР 2023",
     images: [
