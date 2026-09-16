@@ -385,6 +385,7 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/74b87178-f69f-498d-b3ee-d065d44e3dcc.jpg", label: "Ремеко · Подарки 2008" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/010050dd-e35f-4a46-9a4c-0f2becf8042e.JPG", label: "ГруппаСвезз · Электро 2007" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9ac40db9-a79b-49df-b09d-f794280b3227.jpg", label: "Инреко · Металлообработка 2025" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
     label: "Инреко · Металлообработка 2026",
