@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages: { src: string; label: string; images?: string[] }[] = [
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/27d0a764-6bb7-41ef-9576-fd2092b5932f.jpg", label: "Гринн · NatMall 2025" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5999ffb8-7409-420d-b553-b3a98f77e3e1.jpg",
     label: "Frambini · WorldFood 2026",
