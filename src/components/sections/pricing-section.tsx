@@ -120,6 +120,16 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/fc141b2a-f530-4909-ab55-038ae2a8c38b.JPG", label: "югас 2", type: "image" },
     ],
   },
+  {
+    name: "Стойка для мероприятий Frambini",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/52b30b3d-037d-4eb6-bb66-b147e8cbf042.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/87182bfa-3ecd-473b-8125-cd0c0b3091a4.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/8cb001bf-077c-4264-bbe4-7cd18066f60e.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ea622eb8-68c6-4812-a6dc-55730a65e5df.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a85a2d4a-c898-4826-8953-c7d6493c8fdf.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
