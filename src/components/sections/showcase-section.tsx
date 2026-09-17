@@ -16,11 +16,11 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6a63bbed-b6f4-4a1b-a147-7f432789b2d9.jpg",
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/20abfad4-6ccc-463b-b75d-26dc2cefbf48.jfif",
     label: "AllPower Battery · MIMS 2026",
     images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6a63bbed-b6f4-4a1b-a147-7f432789b2d9.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/20abfad4-6ccc-463b-b75d-26dc2cefbf48.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6a63bbed-b6f4-4a1b-a147-7f432789b2d9.jpg",
     ],
   },
   {
