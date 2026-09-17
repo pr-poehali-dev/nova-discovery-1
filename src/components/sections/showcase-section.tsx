@@ -4,37 +4,6 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
-    label: "SKY Agro · Агрос 2022",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b7f9519e-88a1-42c8-94a3-4504dada6c17.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e2846799-f27c-4cb8-abb3-eaaa7aabb0de.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d6f499fc-9779-44ef-9570-cf925b200722.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b771b169-76df-4fd4-b768-3efb393ec877.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/167eb529-5aaa-4cc7-92f8-54d4f68a4124.jpg",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
-    label: "ASAP · Агропродмаш 2022",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dba3d9cc-1bb6-451e-8ca4-be3e1113fec3.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d255d2a3-930a-49b1-97f7-7f0eaa26ee60.jpeg",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ff7b9f0e-8085-4b05-a8c1-5f7fae37f88f.jpg",
-    label: "Revada · РТИ Шины Каучуки 2025",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ff7b9f0e-8085-4b05-a8c1-5f7fae37f88f.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/850af6af-ac72-4b1c-bfd0-d1d4d2559e1e.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2fcbc7eb-fd2b-4aee-80a6-518ebc5c6401.jpg",
-    ],
-  },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/27d0a764-6bb7-41ef-9576-fd2092b5932f.jpg", label: "Гринн · NatMall 2025" },
-  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf1d2a09-9322-4780-8223-8fa17ec6930c.jfif",
     label: "Frambini · WorldFood 2026",
     images: [
@@ -84,7 +53,6 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/acdebdff-4abc-4907-9f56-4caf6ebf3d7a.png", label: "Философт · Rosbuild 2026" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/663e2a32-4fd4-40ec-9d28-5df73819f999.png", label: "2M Group · Кабекс 2026" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/68fb1765-bcc1-4b99-9e54-dda9e0ae15c1.jpg", label: "2M Group · Кабекс 2025" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9a2fc39c-18de-4eaf-ac8c-88dda969002b.jpg",
     label: "ELCO Group · Рупластика 2026",
@@ -110,20 +78,87 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0dcf2ffc-0b95-48b4-9f71-6b573de9a3b3.jpg", label: "Насберри · Продэкспо 2026" },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/056672b3-8fd8-419c-ad35-5aa307ff47bf.jfif",
-    label: "Здравоохранение 2025",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/056672b3-8fd8-419c-ad35-5aa307ff47bf.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7b6bd074-ed2d-4408-9adc-b6411b140eec.jfif",
-    ],
-  },
-  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f13d71fa-b272-4ed4-962a-5f6e19fd554e.jpg",
     label: "Философт · Движение Экспо-Сочи 2026",
     images: [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f13d71fa-b272-4ed4-962a-5f6e19fd554e.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3b14c6db-91cf-4e1d-bdfb-32baa99cb6a0.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/517dec0d-8a45-4b0c-805a-d858ce2e8c15.png",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
+    label: "Цимус · Цветы 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5fff169f-6747-4d30-800b-400124641d51.jpg",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c34aa94-fdb9-4121-b3e4-3f058494e6f2.jfif",
+    label: "ДД Стайл · HouseHold 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c34aa94-fdb9-4121-b3e4-3f058494e6f2.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/09705210-3c21-4f09-b167-d7b1b072b5dd.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c8c72ff2-78cf-438b-bfa8-97caa3ca81e5.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/55593d2d-fde7-4e40-aa57-3b43073e0af7.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b43d8e4f-69d5-4fcc-9405-c2212127fcb9.jfif",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
+    label: "ТТМ · СТТ 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/326aac26-affa-42f6-9482-f505a825454b.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4f428004-99d6-4ddc-9d85-de2831dfad9a.jfif",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
+    label: "Eagleway · Трансроссия 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aa41dd06-29d2-4c5f-826c-ffbd4f41d96f.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/69cbea52-3b40-4a3f-9f38-0ce93231b84b.jfif",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
+    label: "Инреко · Металлообработка 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2069f165-9d91-4483-a358-f5e2e8a28616.png",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b36f4865-082a-4da9-8ba1-0c598d802ad1.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/380b206a-b7a6-4bfd-a5a6-440639cf7ba7.mp4",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
+    label: "Азимут · Металлообработка 2026",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7bc410ed-9cbe-422c-9fac-f3b45fcbc03c.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e85b10fa-ca80-4132-a761-59c9830ece12.jfif",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ff7b9f0e-8085-4b05-a8c1-5f7fae37f88f.jpg",
+    label: "Revada · РТИ Шины Каучуки 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ff7b9f0e-8085-4b05-a8c1-5f7fae37f88f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/850af6af-ac72-4b1c-bfd0-d1d4d2559e1e.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2fcbc7eb-fd2b-4aee-80a6-518ebc5c6401.jpg",
+    ],
+  },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/27d0a764-6bb7-41ef-9576-fd2092b5932f.jpg", label: "Гринн · NatMall 2025" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/68fb1765-bcc1-4b99-9e54-dda9e0ae15c1.jpg", label: "2M Group · Кабекс 2025" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/056672b3-8fd8-419c-ad35-5aa307ff47bf.jfif",
+    label: "Здравоохранение 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/056672b3-8fd8-419c-ad35-5aa307ff47bf.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7b6bd074-ed2d-4408-9adc-b6411b140eec.jfif",
     ],
   },
   {
@@ -174,14 +209,6 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
-    label: "Цимус · Цветы 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5fff169f-6747-4d30-800b-400124641d51.jpg",
-    ],
-  },
-  {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a3fabfbb-d156-4cdd-b145-3e332bfc1ffb.jfif",
     label: "Цимус · Цветы 2025",
     images: [
@@ -189,37 +216,20 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c57c7fb-b965-478c-964d-71e8b811b48b.jfif",
     ],
   },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
-    label: "LAM Solar · Евразия НашДом 2023 Сочи",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/81b256d0-2fcd-4e8b-b457-f1bf6ce3c225.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a005949f-a1ac-47f7-96e8-508368118371.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3c8d9125-1123-4845-ba28-b3c993e33a52.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4d93a5c0-4cdf-4f58-915a-d1d2a2680afb.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6b655096-2bb4-4f6c-9777-6381777199fa.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f53b1b3d-a203-4d21-ac98-5425c6705007.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1194774e-b0ee-4b3d-88f4-676dde8ea465.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0c91cdad-eb9e-4199-86c6-6a56a967eee7.jpeg",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c34aa94-fdb9-4121-b3e4-3f058494e6f2.jfif",
-    label: "ДД Стайл · HouseHold 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6c34aa94-fdb9-4121-b3e4-3f058494e6f2.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/09705210-3c21-4f09-b167-d7b1b072b5dd.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c8c72ff2-78cf-438b-bfa8-97caa3ca81e5.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/55593d2d-fde7-4e40-aa57-3b43073e0af7.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b43d8e4f-69d5-4fcc-9405-c2212127fcb9.jfif",
-    ],
-  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7fb1266b-1e77-413b-a5ba-61574fc772d9.jpg", label: "Артак · БИОТ 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/84595748-1240-403d-8c2e-32a346ca96df.jpg", label: "Артак · БИОТ 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aeab5ef8-b23b-431c-ad31-bfbdb1a9a538.jpg", label: "Черкизово · Gastreet 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e9ee4865-1327-41a4-837c-9132ecf57262.jpg", label: "Философт · Rosbuild 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg", label: "БМ Сервис · Росупак 2025" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
+    label: "Eagleway · Трансроссия 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/51f9c6c3-98f1-432b-a994-1b7f26c0d685.jpg",
+    ],
+  },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9ac40db9-a79b-49df-b09d-f794280b3227.jpg", label: "Инреко · Металлообработка 2025" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a6c8c23b-1db2-4598-a710-863f9a04ec03.jpg",
     label: "Sofi De Marko · HomeTextile&Design 2024",
@@ -232,19 +242,6 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d4b77fd8-7b55-4c4b-98b9-8fd357797e09.jpeg", label: "Эксперт · Металлообработка 2024" },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
-    label: "Эксперт · Металлообработка 2023",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b9832861-da55-4029-be0d-da21824793b4.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/72934844-868c-4c12-b2f2-c7e08672e409.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/631425a3-35c3-41af-9622-de044756d3a5.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b8196bdc-b769-4fcc-a267-0c749f785950.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a7a97fdb-66af-4486-a5e0-2530d5ba2055.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7d03f731-c70d-432c-9387-6c227114a216.jpeg",
-    ],
-  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/41f39706-42a1-43ba-86f7-ee007e236987.jpg", label: "Ola Dom · ЦветыЭкспо 2024" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/90dfcdab-162e-4f6e-b08b-97a44adfbc47.jpg",
@@ -295,6 +292,34 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e0f4ed50-bd73-4a8b-ab75-b6d0f6e75d42.jpg", label: "2M Group · Связь 2024" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
+    label: "LAM Solar · Евразия НашДом 2023 Сочи",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/81b256d0-2fcd-4e8b-b457-f1bf6ce3c225.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a005949f-a1ac-47f7-96e8-508368118371.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3c8d9125-1123-4845-ba28-b3c993e33a52.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4d93a5c0-4cdf-4f58-915a-d1d2a2680afb.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6b655096-2bb4-4f6c-9777-6381777199fa.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f53b1b3d-a203-4d21-ac98-5425c6705007.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1194774e-b0ee-4b3d-88f4-676dde8ea465.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/0c91cdad-eb9e-4199-86c6-6a56a967eee7.jpeg",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
+    label: "Эксперт · Металлообработка 2023",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dac781ab-2d6f-43b7-bf5d-246a5a015f14.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b9832861-da55-4029-be0d-da21824793b4.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/72934844-868c-4c12-b2f2-c7e08672e409.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/631425a3-35c3-41af-9622-de044756d3a5.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b8196bdc-b769-4fcc-a267-0c749f785950.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a7a97fdb-66af-4486-a5e0-2530d5ba2055.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7d03f731-c70d-432c-9387-6c227114a216.jpeg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/eacdb26f-c868-4a55-afb5-750ce22a7c7d.jpg", label: "Sky Agro · Агрос 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d7892db8-d0f7-43fe-9a61-c586623c7363.jpeg", label: "ГК Агробизнес · ЮгАгро 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c904bab4-c90e-46a0-8420-32e1d112cb41.jpg", label: "Sofi de Marko · Hometextil&Design 2023" },
@@ -305,6 +330,36 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/839047b4-2190-4f92-8425-39bcedf58716.jpg", label: "GroupAuto Russia · МИМС 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/72d8d00d-63db-4213-ad6e-8399f1a5339b.jpg", label: "Herbarista · BarHub 2023" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e06b6d33-c4c5-44da-b230-b670771e026b.jpg", label: "Ролик Team · Интерткань 2023" },
+  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
+    label: "NOVI.GROUP · ПИР 2023",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1b9075de-3c69-4860-bc71-ef56cf1b76f0.jpeg",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
+    label: "SKY Agro · Агрос 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/98a68861-0afd-4f53-bb40-9236dcb3e53f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b7f9519e-88a1-42c8-94a3-4504dada6c17.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e2846799-f27c-4cb8-abb3-eaaa7aabb0de.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d6f499fc-9779-44ef-9570-cf925b200722.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b771b169-76df-4fd4-b768-3efb393ec877.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/167eb529-5aaa-4cc7-92f8-54d4f68a4124.jpg",
+    ],
+  },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
+    label: "ASAP · Агропродмаш 2022",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/63854b6a-3bdb-445a-b286-93fec2570cb2.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/dba3d9cc-1bb6-451e-8ca4-be3e1113fec3.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d255d2a3-930a-49b1-97f7-7f0eaa26ee60.jpeg",
+    ],
+  },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/c5a21cd3-6111-4342-b2a4-51920802409f.jpeg", label: "Intekpro · NDT 2022" },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e174076e-f9a2-42fd-9ecd-9277dce36607.jpeg",
@@ -368,41 +423,6 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/314b4de9-d659-4724-9b8c-f2afe42e2023.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d2842e48-caff-434c-b6a5-e36da048755d.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/cba83c2c-fc22-42ab-a04f-90a4027222ed.jpeg",
-    ],
-  },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/869b7e00-a0ae-4829-9999-7540c5918392.jpeg", label: "Amenari · ПИР 2023" },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
-    label: "ТТМ · СТТ 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/326aac26-affa-42f6-9482-f505a825454b.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4f428004-99d6-4ddc-9d85-de2831dfad9a.jfif",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
-    label: "Eagleway · Трансроссия 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aa41dd06-29d2-4c5f-826c-ffbd4f41d96f.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/69cbea52-3b40-4a3f-9f38-0ce93231b84b.jfif",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
-    label: "Eagleway · Трансроссия 2025",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/51f9c6c3-98f1-432b-a994-1b7f26c0d685.jpg",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
-    label: "NOVI.GROUP · ПИР 2023",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2308881b-82de-4a03-a14f-2b6ab6e6f1e9.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/1b9075de-3c69-4860-bc71-ef56cf1b76f0.jpeg",
     ],
   },
   {
@@ -520,26 +540,6 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4b407b7e-8845-4117-8e6b-4adef0461c38.JPG",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/67be2844-656c-431d-be08-790f12a1589e.JPG",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f769622b-3b15-4b2c-9988-7af8d033375f.JPG",
-    ],
-  },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/9ac40db9-a79b-49df-b09d-f794280b3227.jpg", label: "Инреко · Металлообработка 2025" },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
-    label: "Инреко · Металлообработка 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/bf309ae8-64d7-4c31-b2fb-675253c2e4ef.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/2069f165-9d91-4483-a358-f5e2e8a28616.png",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b36f4865-082a-4da9-8ba1-0c598d802ad1.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/380b206a-b7a6-4bfd-a5a6-440639cf7ba7.mp4",
-    ],
-  },
-  {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
-    label: "Азимут · Металлообработка 2026",
-    images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/64aaf8cf-ccec-45b2-bc21-aeed7a94e4ea.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/7bc410ed-9cbe-422c-9fac-f3b45fcbc03c.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e85b10fa-ca80-4132-a761-59c9830ece12.jfif",
     ],
   },
 ]
