@@ -7,6 +7,12 @@ type Collection = { name: string; items: MediaItem[] }
 
 const collections: Collection[] = [
   {
+    name: "Торговый остров для Sofi De Marco в Афимолл Сити",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec999a4f-1c40-4d91-b987-35b094cb5c3b.mp4", label: "Торговый остров для Sofi De Marco в Афимолл Сити", type: "video" },
+    ],
+  },
+  {
     name: "jvc1",
     items: [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/d5eee2f3-cc3b-4a39-8e98-92ad77fa011f.JPG", label: "jvc1", type: "image" },
@@ -128,12 +134,6 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/8cb001bf-077c-4264-bbe4-7cd18066f60e.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ea622eb8-68c6-4812-a6dc-55730a65e5df.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a85a2d4a-c898-4826-8953-c7d6493c8fdf.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
-    ],
-  },
-  {
-    name: "Торговый остров для Sofi De Marco в Афимолл Сити",
-    items: [
-      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec999a4f-1c40-4d91-b987-35b094cb5c3b.mp4", label: "Торговый остров для Sofi De Marco в Афимолл Сити", type: "video" },
     ],
   },
 ]
