@@ -130,6 +130,12 @@ const collections: Collection[] = [
       { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a85a2d4a-c898-4826-8953-c7d6493c8fdf.jpg", label: "Стойка для мероприятий Frambini", type: "image" },
     ],
   },
+  {
+    name: "Торговый остров для Sofi De Marco в Афимолл Сити",
+    items: [
+      { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ec999a4f-1c40-4d91-b987-35b094cb5c3b.mp4", label: "Торговый остров для Sofi De Marco в Афимолл Сити", type: "video" },
+    ],
+  },
 ]
 
 function CollectionCarousel({ collection }: { collection: Collection }) {
