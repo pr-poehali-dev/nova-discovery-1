@@ -106,12 +106,12 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4f428004-99d6-4ddc-9d85-de2831dfad9a.jfif",
     label: "ТТМ · СТТ 2026",
     images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/326aac26-affa-42f6-9482-f505a825454b.jfif",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4f428004-99d6-4ddc-9d85-de2831dfad9a.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/326aac26-affa-42f6-9482-f505a825454b.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/28f254d9-f28b-4efe-b343-a71b0094c3f5.jfif",
     ],
   },
   {
