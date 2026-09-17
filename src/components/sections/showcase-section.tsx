@@ -293,13 +293,13 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e0f4ed50-bd73-4a8b-ab75-b6d0f6e75d42.jpg", label: "2M Group · Связь 2024" },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3c8d9125-1123-4845-ba28-b3c993e33a52.jpeg",
     label: "LAM Solar · Евразия НашДом 2023 Сочи",
     images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3c8d9125-1123-4845-ba28-b3c993e33a52.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/81b256d0-2fcd-4e8b-b457-f1bf6ce3c225.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/a005949f-a1ac-47f7-96e8-508368118371.jpeg",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/3c8d9125-1123-4845-ba28-b3c993e33a52.jpeg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/b194be74-5755-4617-bba4-6ba64d53320f.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/4d93a5c0-4cdf-4f58-915a-d1d2a2680afb.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6b655096-2bb4-4f6c-9777-6381777199fa.jpeg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/f53b1b3d-a203-4d21-ac98-5425c6705007.jpeg",
