@@ -115,12 +115,12 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/69cbea52-3b40-4a3f-9f38-0ce93231b84b.jfif",
     label: "Eagleway · Трансроссия 2026",
     images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aa41dd06-29d2-4c5f-826c-ffbd4f41d96f.jfif",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/69cbea52-3b40-4a3f-9f38-0ce93231b84b.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aa41dd06-29d2-4c5f-826c-ffbd4f41d96f.jfif",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07c85672-e1f9-4e7a-8c5c-fdfae0d6725e.jfif",
     ],
   },
   {
