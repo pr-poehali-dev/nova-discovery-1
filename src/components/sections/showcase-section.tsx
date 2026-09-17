@@ -220,7 +220,14 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/84595748-1240-403d-8c2e-32a346ca96df.jpg", label: "Артак · БИОТ 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/aeab5ef8-b23b-431c-ad31-bfbdb1a9a538.jpg", label: "Черкизово · Gastreet 2025" },
   { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/e9ee4865-1327-41a4-837c-9132ecf57262.jpg", label: "Философт · Rosbuild 2025" },
-  { src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg", label: "БМ Сервис · Росупак 2025" },
+  {
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg",
+    label: "БМ Сервис · Росупак 2025",
+    images: [
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/07809357-ed72-42ac-83db-d73a6056e5ec.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/ba6befd4-886d-4baf-8891-7f495025eebc.jpg",
+    ],
+  },
   {
     src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/48d4026d-9685-4d95-996f-33f87b261b3b.jpg",
     label: "Eagleway · Трансроссия 2025",
