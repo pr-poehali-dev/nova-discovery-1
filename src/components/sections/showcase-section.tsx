@@ -87,11 +87,11 @@ const showcaseImages: { src: string; label: string; images?: string[] }[] = [
     ],
   },
   {
-    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
+    src: "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5fff169f-6747-4d30-800b-400124641d51.jpg",
     label: "Цимус · Цветы 2026",
     images: [
-      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
       "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/5fff169f-6747-4d30-800b-400124641d51.jpg",
+      "https://cdn.poehali.dev/projects/58372c77-932b-4c5c-9a8b-ee75e9b14c57/bucket/6e7ca89d-0acb-462e-946f-e5a58e2f5d2f.jpg",
     ],
   },
   {
